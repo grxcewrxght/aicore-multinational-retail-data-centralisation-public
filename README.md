@@ -1,1 +1,3 @@
-# aicore-multinational-retail-data-centralisation1
+## Multinational-Retail-Data-Centralisation 
+
+The following project aims to organise data for a hypothetical multinational company selling a variety goods across the globe. Prior to undertaking the project, their sales data is spread across a variety of sources which has created issues with access and analysis. To help improve this and develop a data-driven skillset, the hypothetical organisatoin would like to make their data accessible from a centralised location. In order to do this, I must produce a system that stores current company data in a single-source database accesible from a centralised location. Following this, I will query the database obtained to analyse up-to-date metrics for the organisation.
