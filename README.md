@@ -1,4 +1,4 @@
-# Multinational-Retail-Data-Centralisation 
+# Multinational Retail Data Centralisation 
 
 ## Contents 
 1. **Project Brief:** *Description and Aims*
