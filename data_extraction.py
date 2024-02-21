@@ -5,10 +5,15 @@ import json
 import sqlalchemy as alch
 import boto3
 import requests
+import yaml
 
 # Initialize necessary components and API details
 db_connector = du.DatabaseConnector()
-header_details = {'x-api-key': 'yFBQbwXe9J3sd6zWVAMrK6lcxxr0q1lr2PT6DDMX'}
+
+with open('db_creds.yaml', 'r') as file:
+    creds = yaml.safe_load(file)
+    
+header_details = creds['x-api-key']
 retrieve_stores = 'https://aqj7u5id95.execute-api.eu-west-1.amazonaws.com/prod/store_details/{store_number}'
 s3_client = boto3.client('s3')
 
